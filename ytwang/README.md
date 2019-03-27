@@ -24,6 +24,7 @@
     - **由于特征工程耗费的时间较长，我把处理好的X_train和X_test放在了data文件夹中**
   - 模型求解
     - 使用了`SVM`, `LightGBM`, `CatBoost`, `RandomForest`，`XGBoost`, `RidgeRegression`六个模型回归求解
+   - 使用了`K-fold`增加模型的泛化能力
   
   - 模型融合
     - `blending` (简单平均)
