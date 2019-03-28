@@ -25,3 +25,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import KFold,StratifiedKFold, RepeatedKFold
 warnings.filterwarnings("ignore")
+
+# Load train file
+%%time
+train_df = pd.read_csv(os.path.join(PATH,'train.csv'), dtype={'acoustic_data': np.int16, 'time_to_failure': np.float32})
