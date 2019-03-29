@@ -21,23 +21,24 @@ reference:https://www.kaggle.com/artgor/earthquakes-fe-more-features-and-samples
 #### Version1.2 `week1_CNN.py`
 1. Models  
    * 尝试了CNN，参考https://www.kaggle.com/fanconic/earthquake-cnn  
-     * layer 1 : conv 1  
+     * layer 1 : `conv 1`  
      32个filter  
      长度10  
      无padding，步长1  
      activation：ReLu
-     * layer 2 : max pooling 1
+     * layer 2 : `max pooling 1`  
      长度100，步长1
-     * layer 3 ：conv 2  
+     * layer 3 ：`conv 2`  
      filter 64  
      长度10，其余同conv1  
-     * layer 4 ：global average pooling  
-     * layer 5 ：fully connected layer  
+     * layer 4 ：`global average pooling 1` 
+     * layer 5 ：`fully connected layer 1`  
      Activation：ReLu  
-     * layer 6 : fully connected layer  
+     * layer 6 : `fully connected layer 2`  
      Activation: ReLu
      
-2. 成绩：1.635
+     
+2. 成绩：`1.635`
 
 #### To Do
 1. 调参  
