@@ -21,7 +21,31 @@ reference:https://www.kaggle.com/artgor/earthquakes-fe-more-features-and-samples
 ####Version1.2 `week1_CNN.py`
 1. Models  
    * 尝试了CNN，参考https://www.kaggle.com/fanconic/earthquake-cnn  
-   没有扩增feature
+     * layer 1 : conv 1  
+     32个filter  
+     长度10  
+     无padding，步长1  
+     activation：ReLu
+     * layer 2 : max pooling 1
+     长度100，步长1
+     * layer 3 ：conv 2  
+     filter 64  
+     长度10，其余同conv1  
+     * layer 4 ：global average pooling  
+     * layer 5 ：fully connected layer  
+     Activation：ReLu  
+     * layer 6 : fully connected layer  
+     Activation: ReLu
+     
+2. 成绩：1.635
+
+#### To Do
+1. 调参  
+2. 试别的deep learning model，如RNN  
+3. 模型融合
+      
+     
+     
    
    
    
