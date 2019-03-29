@@ -4,7 +4,7 @@ Reference: https://www.kaggle.com/gpreda/lanl-earthquake-eda-and-prediction/note
 https://www.kaggle.com/mjbahmani/probability-of-earthquake-eda-fe-5-models/notebook  
 and Yummy's work.
 
-####Version1.1 `baseline ver1.1.ipynb`
+#### Version1.1 `baseline ver1.1.ipynb`
 1. data visualization  
 取1%的全数据，画acoustic data和time to failure, 发现在每一个failure（time=0）前，都有acoustic data的一个小高峰，有的是在靠近failure的地方，有的是在两次failure中间，说明可以通过acoustic信号来预测failure time。
 2. 增加特征的方法按照王意天1.2版本, in total 138 features  
@@ -18,7 +18,7 @@ reference:https://www.kaggle.com/artgor/earthquakes-fe-more-features-and-samples
    * Trend features
    * Rolling features
 
-####Version1.2 `week1_CNN.py`
+#### Version1.2 `week1_CNN.py`
 1. Models  
    * 尝试了CNN，参考https://www.kaggle.com/fanconic/earthquake-cnn  
      * layer 1 : conv 1  
