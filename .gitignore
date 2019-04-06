@@ -1,0 +1,10 @@
+
+*.xml
+*.csv
+JiaqiYU/Week1.1.py
+JiaqiYU/Week1.2.py
+.idea/misc.xml
+JiaqiYU/.DS_Store
+JiaqiYU/model.hdf5
+JiaqiYU/scripts/Week2.1.py
+JiaqiYU/scripts/Week2.1.py
