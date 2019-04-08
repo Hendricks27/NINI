@@ -98,9 +98,9 @@ valid_gen = generator(float_data, batch_size=batch_size, max_index=second_earthq
 cb = [ModelCheckpoint("model.hdf5", save_best_only=True, period=3)]
 
 model = Sequential()
-model.add(GRU(32, input_shape=(None, n_features), return_sequences=True))
-model.add(GRU(16))
-model.add(Dense(8, activation='relu'))
+model.add(GRU(48, input_shape=(None, n_features), return_sequences=True))
+model.add(GRU(24))
+model.add(Dense(12, activation='relu'))
 model.add(Dense(1))
 
 model.summary()
@@ -112,7 +112,7 @@ model.compile(optimizer=adam(lr=0.0005), loss="mae")
 
 history = model.fit_generator(train_gen,
                               steps_per_epoch=1000,
-                              epochs=30,
+                              epochs=60,
                               verbose=0,
                               callbacks=cb,
                               validation_data=valid_gen,
