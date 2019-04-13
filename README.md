@@ -3,7 +3,7 @@
 
 ### 文件说明 lgb
 --- 
-- baseline1: `week 3.1ipynb` （4194*138）
+- baseline1: `week 3_lgbipynb` （4194*138）
 - 提交成绩：1.567左右
 --- 
 
