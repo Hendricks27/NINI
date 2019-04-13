@@ -1,3 +1,14 @@
+## Week3 本周继续调了random forests，最好的提交成绩 1.572
+##        lgb,最好成绩1.567 
+
+### 文件说明 lgb
+--- 
+- baseline1: `week 3.1ipynb` （4194*138）
+- 提交成绩：1.567左右
+--- 
+
+
+
 ## Week2 本周只调了random forests
 参考调参方法： https://blog.csdn.net/yanyanyufei96/article/details/71213351
 ### 文件说明
