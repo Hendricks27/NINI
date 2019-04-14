@@ -45,7 +45,11 @@ reference:https://www.kaggle.com/artgor/earthquakes-fe-more-features-and-samples
 2. 试别的deep learning model，如RNN  
 3. 模型融合
       
-     
+## Week 3 
+### Done 
+Try genetic programming model
+reference: https://www.kaggle.com/scirpus/andrews-script-plus-a-genetic-program-model
+成绩： `1.448`  
      
    
    
