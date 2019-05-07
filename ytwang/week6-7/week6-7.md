@@ -1,7 +1,7 @@
 ## week6
 - 如何用遗传算法筛选特征
   - 使用`DEAP`  
-  - 参考/[Github]:(https://github.com/kaushalshetty/FeatureSelectionGA)
+  - 参考/[Github](https://github.com/kaushalshetty/FeatureSelectionGA)
 <div align="center"><img src="./image/TIM图片20190504224119.png" width=""/></div>
   
 ## TODO
@@ -14,9 +14,9 @@
 - 使用遗传算法回归
 - `/deap/test.py`
 - titanic deap
-  - 参考/[kaggle]:(https://www.kaggle.com/michalgdak/gp-in-deap-with-cv-and-early-stopping#data)
+  - 参考/[kaggle](https://www.kaggle.com/michalgdak/gp-in-deap-with-cv-and-early-stopping#data)
 - 官方文档
-  - [example]:(https://deap.readthedocs.io/en/master/examples/gp_symbreg.html)
+  - [example](https://deap.readthedocs.io/en/master/examples/gp_symbreg.html)
 ## TODO
 - 调参，现在生成的表达式太短
     - 人口数
