@@ -20,7 +20,7 @@ class FE_version3(FE_Base):
     def __init__(self):
         super().__init__()
 
-        self.chunk_size = self.feature_data_length
+        self.chunk_size = self.FEATURE_DATA_LENGTH
         # self.dtype = dtype
         self.filename = None
         # self.n_jobs = n_jobs

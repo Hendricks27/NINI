@@ -58,7 +58,7 @@ class FE_version2(FE_Base):
     def generate_features(self, length_of_segment, factor_df, result_df):
 
         print("Feature Engineering Process Starts.")
-        data_slice = self.feature_data_length
+        data_slice = self.FEATURE_DATA_LENGTH
 
         for segment in range(length_of_segment):
 
